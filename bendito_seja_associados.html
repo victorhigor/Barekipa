@@ -318,24 +318,41 @@
                          </span>
                     </header>
                     <div class="panel-body">
-                    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
-                                   NOME
-                                   <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
-                                   CPF
-                                   <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
-                                   N/convenio
-                     <div class="input-group m-bot15">
+                    
+                     
+                     <div class="input-group m-bot15 col-md-3 pull-left">
+                         <div class="row">
+                             <div class="col-sm-4">
+
+                                        <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                                        NOME
+                               </div>
+                               <div class="col-sm-4">
+                                       <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                                       CPF
+                                </div>
+                                <div class="col-sm-4">
+                                       <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                                       N/convenio
+                                       </div>
+                         </div>
+                     </div>
+                     <div class="input-group m-bot15 col-md-3 pull-left">
+                     
                                 <input type="text" class="form-control">
                                               <span class="input-group-btn">
                                                 <button class="btn btn-success" type="button">Pesquisar</button>
                                               </span>      
-                     <div class="btn-group pull-right">
+                                               
+                            </div>
+                            <div class="btn-group pull-right">
                             <button id="editable-sample_new" class="btn btn-primary" onclick="document.location='bendito_seja_associados_perfil.html'">
                                 Novo <i class="fa fa-plus"></i>
                             </button>
-                        </div>                          
-                            </div>
-                        <table class="table  table-hover general-table">
+                        </div>
+                        <div style="clear:both"></div>
+                        <hr />
+                        <table onclick="document.location='bendito_seja_associados_perfil.html'" class="table  table-hover general-table">
                             <thead>
                             <tr>
                                 <th> Nome</th>
@@ -349,13 +366,13 @@
                             </tr>
                             </thead>
                             <tbody>
-                            <tr>
+                            <tr> 
                                 <td><a href="#">Joao</a></td>
                                 <td>100.100.100-10</td>
                                 <td>10/10/2010</td>
                                 <!-- <td><span class="label label-info label-mini">Due</span></td> -->
                                 <td>
-                                    <div class="progress progress-striped progress-xs">
+                                    <div  class="progress progress-striped progress-xs">
                                         <div style="width: 20%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="20" role="progressbar" class="progress-bar progress-bar-info">
                                             <span class="sr-only">40% (success)</span>
                                         </div>
